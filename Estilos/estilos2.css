@@ -1,6 +1,6 @@
 body {
-    background-image: url(/paginas/IMAGENES/pasteleria.webp);
-    margin:none;
+    background-image: url(../IMAGENES/pasteleria.webp);
+    
 }
 /*titulo central*/
 .fondocabezera {
