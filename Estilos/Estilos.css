@@ -1,275 +1,80 @@
-.emcabezado {
-    background-color: rgb(236, 124, 186);
-    color: rgb(245, 248, 250);
-    font-weight: bolder;
-    font-size: 30px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    padding: 05px;
-    border-bottom: 10px solid rgb(153, 63, 113);
-    text-align: center;
-    animation-name: contacto;
-    animation-duration: 4s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
+body {
+  background-image: url(../IMAGENES/pasteleria.webp);
+}
+body section header {
+  background-color: rgb(252, 151, 206);
+  padding: 50px;
+  border: 5px solid rgb(223, 133, 182);
+  text-decoration: none;
+}
+body section header div h1 {
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 50px;
+  color: rgb(255, 254, 254);
+}
+body section header div p {
+  color: rgb(255, 254, 254);
+  font-size: 20px;
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+body section section {
+  border: 5px solid rgb(221, 195, 193);
+  background-color: rgba(230, 204, 222, 0.692);
 }
 
-.emcabezado__pestañas {
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-weight: bolder;
-
+.contenido div div h1 {
+  color: rgb(64, 65, 65);
+  text-align: justify;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding: 15px;
+  background-color: rgba(253, 253, 250, 0.514);
+}
+.contenido div div h2 {
+  color: rgb(64, 65, 65);
+  text-align: justify;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding: 15px;
+  background-color: rgba(253, 253, 250, 0.514);
+}
+.contenido div div img {
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: width 2s;
+}
+.contenido div div img:hover {
+  width: 465px;
 }
 
-#pagina {
-    background-image: url(./pasteleria.webp);
-
+.buscanos {
+  font-size: 15px;
+  bottom: bolder;
+  font-family: "Mochiy Pop One", sans-serif;
+  -webkit-animation-name: buscanos;
+          animation-name: buscanos;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
-.emcabezado__pestañas ul {
-    padding: 20px;
-    background-color: rgb(116, 221, 221);
-    border-bottom: 05px solid rgb(23, 56, 56);
-    text-align: center;
+@-webkit-keyframes buscanos {
+  100% {
+    background-color: rgba(230, 204, 222, 0.692);
+  }
 }
 
-.emcabezado__pestañas ul li {
-    margin-left: 20px;
-    list-style: none;
-    display: inline-block;
-    background-color: rgb(182, 248, 248);
-    padding: 15px;
-    font-size: 15px;
-    border-radius: 05px;
-
+@keyframes buscanos {
+  100% {
+    background-color: rgba(230, 204, 222, 0.692);
+  }
 }
-
-.emcabezado__pestañas ul li a {
-    text-decoration: none;
-    color: rgb(199, 43, 139);
-
-}
-
-.emcabezado__pestañas ul li a:hover {
-    color: rgb(143, 136, 136);
-}
-
-.imagen {
-    text-align: center;
-}
-
-.imagen img {
-    border-radius: 50%;
-}
-
-.buscador {
-    position: absolute;
-    left: 80px;
-    top: 100px;
-    font-size: 20px;
-    border-bottom: 03px solid rgb(8, 8, 8);
-    border-radius: 05px;
-}
-
-nav button {
-    position: absolute;
-    left: 320px;
-    top: 100px;
-    font-size: 20px;
-}
-
-.emcabezado__pestañas button:hover {
-    background-color: rgb(69, 69, 170);
-}
-
-.sociales a img:hover {
-    background-color: rgb(128, 128, 177);
-}
-
-nav div a img {
-    position: relative;
-    left: 1600px;
-    bottom: 450px;
-}
-
-.formulario {
-    border-bottom: 05px solid rgb(12, 11, 11);
-    padding: 10px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-weight: bold;
-    text-align: justify;
-    background-color: rgb(130, 223, 223);
-    width: 400px;
-    color: rgb(75, 60, 60);
-
-}
-
-.reseña {
-    background-color: 05px solid rgb(122, 74, 74);
-}
-
-.listaflex ol {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.productos {
-    font-family: 'Mochiy Pop One', sans-serif;
-    background-color: rgb(214, 180, 245);
-    width: 360px;
-    border-bottom: 03px solid rgb(189, 120, 183);
-    color: rgb(75, 60, 60);
-
-}
-
-.listaflex {
-    text-align: center;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: rgb(75, 60, 60);
-    font-weight: bolder;
-}
-
-.listaflex ol li p {
-    border-bottom: 02px solid rgb(77, 73, 73);
-    background-color: rgb(245, 245, 220);
-}
-
-
-.nosotros {
-    background-color: rgb(245, 245, 220);
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-weight: bold;
-    text-align: justify;
-    color: rgb(75, 60, 60);
-    width: 120px;
-    border-bottom: 03px solid rgb(192, 192, 177);
-}
-
-.texto {
-    background-color: beige;
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-weight: bold;
-    text-align: justify;
-    color: rgb(75, 60, 60);
-    border-bottom: 03px solid rgb(192, 192, 177);
-}
-
-.reseña {
-    display: grid;
-    grid-template-rows: 400px 400px 400px;
-    grid-template-columns: 935px 935px;
-    justify-items: center;
-    align-items: center;
-    background-color: rgb(245, 245, 220);
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-weight: bold;
-    text-align: justify;
-    color: rgb(75, 60, 60);
-}
-.reseña div {
-    border: solid 03px rgb(197, 182, 182);
-
-
-}
-.emcabezado__pestañas {
-    display: grid;
-    grid-template-rows: 100px;
-    justify-items: center;
-    align-items: center;
-}
-.border {
-    border: solid 03px black;
-}
-#grilla {
-    display: grid;
-    grid-template-areas:
-    "header header header" 
-    "nav tienda galeria"
-    "nav tienda galeria"
-    "nav contacto nosotros"
-    "nav footer footer";
-    grid-template-rows: 300px 100px 300px 100px 100px;
-    grid-template-columns: 30% 800px 27%;
-    column-gap: 03px;
-    row-gap: 03px;
-}
-#header {
-    grid-area: header;
-}
-#nav {
-    grid-area: nav;
-    font-size: 22px;
-    text-align: justify;
-    background-color: rgba(196, 159, 103, 0.664);
-    font-family: 'Mochiy Pop One', sans-serif;
-    
-}
-#nav h1{
-    text-align: center;
-    
-}
-#footer {
-    grid-area: footer;
-    font-size: 30px;
-    background-color: rgba(218, 105, 148, 0.664);
-    font-weight: bolder;
-    background-image: linear-gradient(-45deg, rgb(226, 113, 198), rgb(224, 197, 219));
-    transform: translate(10px, 30px);
-}
-#tienda {
-    grid-area: tienda;
-    text-align: center;  
-}
-#tienda img {
-    transition: width 2s;
-}
-#tienda img:hover {
-    width: 400px;
-}
-
-#contacto {
-    grid-area: contacto;
-    background-color: rgba(196, 159, 103, 0.664);
-    font-family: 'Mochiy Pop One', sans-serif;
-    text-align: center;
-    background-image: linear-gradient(-45deg, rgb(226, 113, 198), rgb(224, 197, 219));
-    font-size: 50px;
-    transform: translate(10px, 30px);
-    
-}
-
-@keyframes contacto {
-    0% {background-color:rgb(226, 113, 198);}
-    50% {background-color: rgb(173, 51, 143);}
-    100% {background-color: rgb(226, 113, 198);}
-}
-
-#galeria {
-    grid-area: galeria;
-    background-color: rgba(196, 159, 103, 0.664)
-    
-}
-section#nosotros {
-    grid-area: nosotros;
-    background-color: rgba(196, 159, 103, 0.664);
-    font-family: 'Mochiy Pop One', sans-serif;
-    text-align: center;
-    background-image: linear-gradient(-45deg, rgb(226, 113, 198), rgb(224, 197, 219));
-    font-size: 50px;
-    transform: translate(10px, 30px);
-}
-
-@media screen and (max-width: 768px) {
-    #grilla {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "header header header"
-        "nav nav nav"
-        "tienda tienda tienda"
-        "galeria galeria galeria"
-        "contacto contacto contacto"
-        "nosotros nosotros nosotros"
-        "footer footer footer" ;
-    }
-} 
-
+section footer address {
+  border: 5px solid rgb(221, 195, 193);
+  background-color: rgba(230, 204, 222, 0.692);
+  font-family: "Mochiy Pop One", sans-serif;
+  color: rgb(64, 65, 65);
+}/*# sourceMappingURL=estilos.css.map */

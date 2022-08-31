@@ -1,0 +1,41 @@
+.contenido {
+    div {
+        div {
+            h1 {
+                color: rgb(64, 65, 65);
+    text-align: justify;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 15px;
+    background-color: rgba(253, 253, 250, 0.514);
+            }
+            h2 {
+                color: rgb(64, 65, 65);
+    text-align: justify;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 15px;
+    background-color: rgba(253, 253, 250, 0.514);
+            }
+            img {
+                border: 10px solid rgb(255, 255, 255);
+    border-radius: 05px;
+    transition: width 2s;
+    &:hover {
+        width: 465px;
+    }
+            }
+        }
+    }
+}
+.buscanos {
+    font-size: 15px;
+    bottom: bolder;
+    font-family: 'Mochiy Pop One', sans-serif;
+    animation-name: buscanos;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes buscanos {
+    100% {background-color: rgba(230, 204, 222, 0.692);}
+}

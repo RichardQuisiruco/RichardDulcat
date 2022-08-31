@@ -1,0 +1,30 @@
+body {
+    background-image: url(../IMAGENES/pasteleria.webp);
+    section {
+        header {
+        background-color: rgb(252, 151, 206);
+    padding: 50px;
+    border: 05px solid rgb(223, 133, 182);
+    text-decoration: none;
+    div {
+        h1 {
+            text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 50px;
+    color: $primarycolor;
+    
+        }
+        p {
+            color: rgb(255, 254, 254);
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Mochiy Pop One', sans-serif
+        }
+    }
+    }
+ section {
+    border: 05px solid rgb(221, 195, 193);
+    background-color: rgba(230, 204, 222, 0.692);
+ }   
+}
+}
