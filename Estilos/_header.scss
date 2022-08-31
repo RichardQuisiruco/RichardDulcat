@@ -11,7 +11,8 @@ body {
             text-align: center;
     font-family: 'Mochiy Pop One', sans-serif;
     font-size: 50px;
-    color: $primarycolor;
+    /*intente cambiar este color del texto con la variable y me salio error*/
+    color: rgb(255, 254, 254);
     
         }
         p {
