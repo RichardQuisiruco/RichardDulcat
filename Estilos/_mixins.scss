@@ -1,0 +1,7 @@
+@mixin texto ($letracolor, $bgcolor) {
+    color: $letracolor;
+    text-align: justify;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 15px;
+    background-color: $bgcolor
+}

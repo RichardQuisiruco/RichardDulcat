@@ -55,28 +55,12 @@ body {
 @keyframes buscanos {
     100% {background-color: rgba(230, 204, 222, 0.692);}
 }
-/*imagenes de torta*/
-.tortas {
-    border: 10px solid rgb(255, 255, 255);
-    border-radius: 05px;
-    transition: width 3s;
-}
-.tortas:hover {
-    width: 600px;
-}
 
 /*contenido*/
 .contenido {
     border: 05px solid rgb(221, 195, 193);
     background-color: rgba(230, 204, 222, 0.692);
 
-}
-.parrafo2 {
-    color: rgb(64, 65, 65);
-    text-align: justify;
-    font-family: 'Mochiy Pop One', sans-serif;
-    padding: 15px;
-    background-color: rgba(253, 253, 250, 0.514);
 }
 /*formulario*/
 .formulario {

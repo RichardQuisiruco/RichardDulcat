@@ -1,0 +1,6 @@
+.tortas {
+    @extend %imagenbase
+}
+.tortas:hover {
+    width: 520px;
+}

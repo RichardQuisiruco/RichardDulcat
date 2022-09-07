@@ -11,6 +11,7 @@ body section header div h1 {
   text-align: center;
   font-family: "Mochiy Pop One", sans-serif;
   font-size: 50px;
+  /*intente cambiar este color del texto con la variable y me salio error*/
   color: rgb(255, 254, 254);
 }
 body section header div p {
@@ -37,14 +38,6 @@ body section section {
   font-family: "Mochiy Pop One", sans-serif;
   padding: 15px;
   background-color: rgba(253, 253, 250, 0.514);
-}
-.contenido div div img {
-  border: 10px solid rgb(255, 255, 255);
-  border-radius: 5px;
-  transition: width 2s;
-}
-.contenido div div img:hover {
-  width: 465px;
 }
 
 .buscanos {
@@ -77,4 +70,28 @@ section footer address {
   background-color: rgba(230, 204, 222, 0.692);
   font-family: "Mochiy Pop One", sans-serif;
   color: rgb(64, 65, 65);
+}
+
+.tortas:hover {
+  width: 520px;
+}
+
+.parrafo2 {
+  color: rgb(64, 65, 65);
+  text-align: justify;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding: 15px;
+  background-color: rgba(253, 253, 250, 0.514);
+}
+
+.tortas {
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: width 3s;
+}
+
+.formulario {
+  color: rgb(51, 46, 66);
+  background-color: rgba(241, 198, 228, 0.795);
+  font-family: "Mochiy Pop One", sans-serif;
 }/*# sourceMappingURL=estilos.css.map */
