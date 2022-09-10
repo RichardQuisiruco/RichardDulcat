@@ -72,8 +72,12 @@ section footer address {
   color: rgb(64, 65, 65);
 }
 
+.mapa {
+  text-decoration: none;
+}
+
 .tortas:hover {
-  width: 520px;
+  width: 450px;
 }
 
 .parrafo2 {
@@ -87,7 +91,7 @@ section footer address {
 .tortas {
   border: 10px solid rgb(255, 255, 255);
   border-radius: 5px;
-  transition: width 3s;
+  transition: width 1s;
 }
 
 .formulario {
