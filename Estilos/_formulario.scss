@@ -1,5 +1,10 @@
 .formulario {
     color:map-get($estilos, colortexto);
     background-color: map-get($estilos, colorbg );
-    font-family: 'Mochiy Pop One', sans-serif;
+    
+    label {
+        font-family: 'Mochiy Pop One', sans-serif;
+        color: rgb(80, 107, 131);
+
+    }
 }
